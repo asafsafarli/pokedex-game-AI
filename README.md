@@ -1,17 +1,17 @@
 # Pokedex Game React
 
-![React](https://img.shields.io/badge/React-18.2.0-blue)
-![Vite](https://img.shields.io/badge/Vite-5.1.0-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Pokédex Game React project – A Pokémon Team Battle Simulator built with React and Vite.  
-Players can compare two teams of Pokémon, calculate their total EXP, and see which team wins.
+A Pokémon Team Battle Simulator built with React and Vite.  
+Two random teams of 3 Pokémon are generated, their total base EXP is compared, and a winner is declared!
 
 ---
 
 ## 🔗 Live Demo
 
-[View Live on Vercel](https://pokedox-game-react-pearl.vercel.app)
+👉 **[View Live on Vercel](https://pokedox-game-react-pearl.vercel.app)**
 
 ---
 
@@ -19,17 +19,25 @@ Players can compare two teams of Pokémon, calculate their total EXP, and see wh
 
 ![Pokedex Game Screenshot](./screenshot.png)
 
-> Add your own screenshot to `./screenshot.png` to display here.
-
 ---
 
 ## ⚡ Features
 
-- React + Vite setup with HMR
-- Pokémon Team Battle Simulator
-- Calculates total EXP for each team
-- Highlights winning team
-- Responsive design
+- Fetches random Pokémon from [PokeAPI](https://pokeapi.co/)
+- Two teams of 3 Pokémon battle by total Base EXP
+- Official artwork for each Pokémon
+- Winner team highlighted with golden glow
+- Responsive design (mobile & desktop)
+- "Start Game" reloads with new random teams
+
+---
+
+## 🛠 Tech Stack
+
+- **React 19** — UI components & state management
+- **Vite 8** — Fast dev server & bundling
+- **PokeAPI** — Pokémon data source
+- **CSS3** — Custom styling with gradients & animations
 
 ---
 
@@ -47,3 +55,4 @@ npm install
 
 # Start development server
 npm run dev
+```

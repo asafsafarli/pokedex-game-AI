@@ -11,7 +11,7 @@ Two random teams of 3 Pokémon are generated, their total base EXP is compared, 
 
 ## 🔗 Live Demo
 
-👉 **[View Live on Vercel](https://pokedox-game-react-pearl.vercel.app)**
+👉 **[View Live on Vercel](https://pokedex-app-seven-orcin.vercel.app)**
 
 ---
 

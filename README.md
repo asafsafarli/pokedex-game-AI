@@ -1,24 +1,49 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
 # Pokedex Game React
 
-Pokédex Game React project
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Vite](https://img.shields.io/badge/Vite-5.1.0-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+Pokédex Game React project – A Pokémon Team Battle Simulator built with React and Vite.  
+Players can compare two teams of Pokémon, calculate their total EXP, and see which team wins.
+
+---
 
 ## 🔗 Live Demo
 
 [View Live on Vercel](https://pokedox-game-react-pearl.vercel.app)
+
+---
+
+## 🖼 Screenshot
+
+![Pokedex Game Screenshot](./screenshot.png)
+
+> Add your own screenshot to `./screenshot.png` to display here.
+
+---
+
+## ⚡ Features
+
+- React + Vite setup with HMR
+- Pokémon Team Battle Simulator
+- Calculates total EXP for each team
+- Highlights winning team
+- Responsive design
+
+---
+
+## 💻 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/asafsafarli/pokedex-game-AI.git
+
+# Enter the project directory
+cd pokedex-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
